@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#enkeDiv {
+    min-height: 100vh;
+    height: auto;
+    background-color: rgb(63, 166, 47);
+}
+#elaveet{
+    cursor: pointer;
+    transition: background 0.3s,scale 0.3s;
+}
+#elaveet:hover{
+    background-color:  rgb(109, 142, 104);
+    scale: 1.05;
+
+}
+
+#elanElaveEtme {
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    padding: 20px;
+    background-color: rgb(191, 255, 95);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    display: none;
+
+    input {
+        width: 400px;
+        height: 40px;
+        text-indent: 12px;
+        font-size: 15px;
+        border-style: none;
+        box-shadow: 4px 4px 4px;
+        border-radius: 8px;
+    }
+
+    button {
+        width: 380px;
+        height: 48px;
+        font-size: 25px;
+        border-radius: 30px;
+        color: white;
+        background-color: rgb(20, 114, 6);
+    }
+}
+
+.navbar {
+    width: 100%;
+    height: 90px;
+    box-shadow: 5px 5px 5px rgb(20, 114, 6);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(107, 255, 85);
+
+    span {
+        color: rgb(20, 114, 6);
+        font-size: 40px;
+    }
+
+    input {
+        width: 400px;
+        height: 40px;
+        text-indent: 17px;
+        font-size: 17px;
+        border-radius: 8px;
+        border-style: none;
+    }
+
+    button {
+        width: 175px;
+        height: 40px;
+        background-color: rgb(20, 114, 6);
+        font-size: 19px;
+        color: white;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+}
+
+#elanlar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    align-items: flex-start;
+}
+
+#elanlar>div {
+    width: 250px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px gray;
+}
+
+#elanlar>div {
+    width: 300px;
+    min-height: 300px;
+    padding: 20px;
+}
+
+#elanlar h3 {
+    font-size: 28px;
+    color: rgb(79, 79, 4);
+}
+
+#elanlar p {
+    font-size: 20px;
+    color: rgb(79, 79, 4);
+}
+
+#elanlar h4 {
+    font-size: 20px;
+    color: rgb(79, 79, 4);
+}
+
+#elanlar>div {
+    background-color: rgb(170, 218, 107);
+}
+
+#elanlar img {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+.sil {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    background-color: rgb(0, 255, 0);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
